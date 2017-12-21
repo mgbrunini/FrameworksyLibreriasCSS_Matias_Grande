@@ -4,17 +4,94 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/style.css">
-    <title></title>
+    <title>Blog de musica</title>
   </head>
   <body>
-    <header>
-      <nav class='navbar navbar-inverse navbar-fixed-top affix-top .bg-secondary'>
-        <img class="logo-img pull-right" src='img/logo.png'/>
-      </nav>
+    <header class="container" id="header">
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-md-6 col-lg-2 text-center">
+          <img class="img-responsive" id="logo" src="img/logo.png">
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-6"></div>
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+          <ul class="list-inline social text-center" id="SocialBlock">
+            <a href="https://www.facebook.com/"><img class='img-rounded img-social' src='img/fb.png'/></a>
+            <a href="https://www.instagram.com/?hl=es-la"><img class='img-rounded img-social' src='img/ig.png'/></a>
+            <a href="https://twitter.com/login?lang=es"><img class='img-rounded img-social' src='img/tt.png'/></a>
+            <a href="https://www.youtube.com/"><img class='img-rounded img-social' src='img/yt.png'/></a>
+            <a href="https://www.snapchat.com/l/es/"><img class='img-rounded img-social' src='img/sc.png'/></a>
+          </ul>
+        </div>
+      </div>
     </header>
 
+    <nav class="container">
+      <div class="row text-center" id="menu">
+        <div class="col-sm-2">
+          <button type="button" name="inicio" class="btn btn-default">Inicio</button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" name="artistas" class="btn btn-default">Artistas</button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" name="grupos" class="btn btn-default">Grupos</button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" name="top10" class="btn btn-default">Top 10</button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" name="letras" class="btn btn-default">Letras</button>
+        </div>
+        <div class="col-sm-2">
+          <button type="button" name="acordes" class="btn btn-default">Acordes</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <br>
+      <div class="row">
+        <div class="row col-lg-8">
+          <div class="col-lg-7 parrafo text-justify">
+            <h2>Tributo a Sonata Arctica</h2>
+            <p>Sonata Arctica fue fundada bajo el nombre de Tricky Beans por el vocalista Tony Kakko y los guitarristas Jani Liimatainen y Marko Paasikoski, que más
+              adelante sería el bajista. En sus inicios tocaban canciones fuertemente influidas por el género hard rock, las cuales no tenían mucho que ver con el Power
+              Metal. Al principio de su carrera, grabaron tres demos que nunca fueron enviados a ningún sello discográfico - Friend 'till The End, Agre Pamppers y
+              PeaceMaker .</p>
+          </div>
+          <div class="col-lg-5">
+            <img src="img/SA1.jpg" class="img-thumbnail">
+          </div>
+          <textarea class="form-control textarea" rows="6">Escriba aquí su texto.</textarea>
+          <div class="col-lg-5">
+            <img src="img/SA2.jpg" class="img-thumbnail">
+          </div>
+          <div class="col-lg-7 parrafo text-justify">
+            <h3>Sus inicios</h3>
+            <p>En 1999, la banda grabó una demo titulado FullMoon, compuesto por Tony Kakko, el guitarrista Jani Liimatainen, el bajista Janne Kivilahti y el batería
+              Tommy Portimo. La demo fue enviada al sello Spinefarm y la banda cambió definitivamente su nombre a Sonata Arctica. Un contrato de grabación llegó poco
+              después.Más tarde ese mismo año fue lanzado en Finlandia el primer single del grupo, titulado UnOpened, el cual provocó un gran impacto, entrando en los
+              20 más vendidos en su primera semana tras salir a la venta.</p>
+          </div>
+          <textarea class="form-control textarea" rows="6">Escriba aquí su texto.</textarea>
+        </div>
+        <div class="row-centered col-lg-4">
+          <div class="form-group">
+            <h3>Buscar<img src="img/lupa.png" alt="lupa" id="lupa"><input type="text" class="form-control"><span class="glyphicon glyphicon-search"></span></h3>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">Biografia</li>
+            <li class="list-group-item">Miembros</li>
+            <li class="list-group-item">Discografias</li>
+            <li class="list-group-item">Giras</li>
+            <li class="list-group-item">Covers</li>
+            <li class="list-group-item">Referencias</li>
+            <li class="list-group-item">Enlaces externos</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!--Arrancan los script-->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js">

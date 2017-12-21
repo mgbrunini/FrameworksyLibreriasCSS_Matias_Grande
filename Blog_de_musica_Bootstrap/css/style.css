@@ -1,8 +1,41 @@
-.navbar-inverse {
-  background-color: rgba(160,160,160, 0.95);
-  min-height: 10%;
-  border: none;
+body{
+  background-color: black;
 }
-.logo-img {
-  width: 100px;
+#header{
+  background-color: rgba(160,160,160, 0.95);
+  height: 6em;
+}
+.parrafo{
+  color: white;
+}
+.textarea{
+  background: white;
+  color: grey;
+}
+#lupa{
+  width: 10%;
+}
+#menu{
+  background: lightgrey;
+  text-align: center;
+}
+.btn{
+  background-color: lightgrey;
+}
+h3{
+  color: white;
+}
+.social{
+	margin: 45px 0 0 0;
+}
+@media (max-width: 767px) {
+	#logo{
+		margin: 0 auto;
+	}
+	#SocialBlock{
+    margin-top: 0px;
+	}
+  #menu{
+    margin-top: 60px;
+  }
 }
