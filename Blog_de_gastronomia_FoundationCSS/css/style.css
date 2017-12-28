@@ -1,0 +1,18 @@
+h1, h5, h3, p, a{
+  color: white;
+}
+h5{
+  text-align: right;
+}
+#let{
+  color: black;
+}
+#izq, #der{
+  background-color: rgba(48, 194, 255, 0.2);
+color: rgba(48, 194, 255, 0.2);
+}
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
