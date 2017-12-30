@@ -2,9 +2,148 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale:1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen,projection">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog de turismo</title>
   </head>
   <body>
+    <div class="row green darken-3">
+      <!-- Logo -->
+      <div class="col l1 push-l1" id="logo">
+          <img class="responsive-img" src="img/logo.png">
+      </div>
+      <div class="col l6 push-l5">
+        <!-- Navegacion -->
+        <nav>
+          <div class="nav-wrapper green darken-3" id="nav">
+            <ul class="right hide-on-med-and-down">
+              <li class="active"><a href="#"><i class="material-icons left waves-effect">home</i>Inicio</a></li>
+              <li><a href="#"><i class="material-icons left waves-effect">location_on</i>Estuve en</a></li>
+              <li><a href="#"><i class="material-icons left waves-effect">star</i>Mejores viajes</a></li>
+              <li><a href="#"><i class="material-icons left waves-effect">announcement</i>Recomendaciones</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+        <br>
+        <!-- slogan -->
+        <div class="col l10 push-l1 white-text" id="sl">
+          <h5>Maravillando la vida</h5>
+        </div>
+      </div>
+    </div>
 
+    <div class="row">
+      <!-- Redes sociales -->
+      <div class="col s10 push-s1 m1 l1 center">
+        <a href="https://www.facebook.com/"><img src="img/fb.png"></a>
+        <a href="https://www.instagram.com/?hl=es"><img src="img/ig.png"></a>
+        <a href="https://www.snapchat.com/l/es/"><img src="img/sc.png"></a>
+        <a href="https://twitter.com/login?lang=es"><img src="img/tt.png"></a>
+        <a href="https://www.youtube.com/"><img src="img/yt.png"></a>
+      </div>
+      <!-- Galeria de viajes -->
+      <div class="col l11">
+        <div class="col l4">
+          <img class="materialboxed z-depth-5" width="100%" src="img/ph1.jpg">
+          <img class="materialboxed z-depth-5" width="100%" src="img/ph2.jpg">
+          <img class="materialboxed z-depth-5" width="100%" src="img/ph3.jpg">
+        </div>
+        <div class="col l4">
+          <img class="materialboxed z-depth-5" width="100%" src="img/pv1.jpg" id="pv">
+        </div>
+        <div class="col l4">
+           <img class="materialboxed z-depth-5" width="100%" src="img/ph4.jpg">
+           <img class="materialboxed z-depth-5" width="100%" src="img/ph5.jpg">
+           <img class="materialboxed z-depth-5" width="100%" src="img/ph6.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Entrada de blog -->
+      <div class="col l7" id="blog">
+        <h1>Salto de la moneda</h1>
+        <h5>29 de diciembre de 2017 - Potrero de los Funes, San Luis, Buenos Aires</h5>
+        <div class="row">
+          <div class="col l4">
+            <img src="img/blog.jpg" width="100%" class="responsive-img">
+          </div>
+          <div class="col l8 text-justify">
+            <p>En los últimos años la localidad de Potrero de los Funes, cercana a la capital de la provincia de San Luis, ha adquirido una notable importancia en materia de turismo. Su clima benigno, la variada oferta hotelera y gastronómica y particularmente el entorno donde está enclavado hacen que no sólo los sanluiseños sino también los cientos de viajeros que merodean por la región deseen visitar y recorrer este lugar.</p>
+          </div>
+        </div>
+        <p>Para cumplir con nuestro cometido responsablemente nos pusimos en contacto con la gente de Pilpintus, que ofrece su servicio de guías en la región. Sabiamente han desarrollado distintas actividades por la localidad que implican recorrerla a pie, andar en bicicleta por circuitos de montaña, cabalgatas y, para los más intrépidos, escalada o rappel.</p>
+        <!-- Caja de comentario -->
+        <br><h5>Deja tu comentario</h5>
+        <div class="col s12 l5 input-field">
+          <i class="material-icons prefix">perm_identity</i>
+          <input type="text" id="nombre" class="validate">
+          <label for="nombre">Nombre y apellido</label>
+        </div>
+        <div class="col s12 l5 push-l1 input-field">
+          <i class="material-icons prefix">email</i>
+          <input type="text" id="email" class="validate">
+          <label for="email">E-mail</label>
+        </div>
+        <div class="col s12 l12 input-field">
+          <i class="material-icons prefix">insert_comment</i>
+          <textarea id="texto" class="materialize-textarea"></textarea>
+          <label for="texto">Comentario</label>
+        </div>
+        <div class="col s12 l3 push-l9">
+          <a class="btn waves-effect waves-red btn-large" style="background:white;color:black"><i class="material-icons left">send</i>Enviar</a>
+        </div>
+      </div>
+      <!-- Perfil del autor -->
+      <div class="col l4 push-l1" id="autor">
+        <img src="img/autor.png" class="responsive-img circle">
+        <p>Perfil del autor</p>
+        <hr />
+        <p>Juan Protenik nació en Buenos Aires,  el 6 de noviembre de 1965. Es montañista profesional, egresado de la Facultad de Biologia de la UBA, Traductor e Intérprete de los idiomas castellano-ruso.
+
+          Actualmente se desempeña como aventurero e investigador de la Facultad de Biologia, Consultor en Sistemas Contra Incendio forestal y Bombero Voluntario. Se desempeñó además como Consultor técnico en relaciones rusas.</p>
+      </div>
+    </div>
+
+    <div class="row hide-on-med-and-down">
+      <div class="col l7" id="blog">
+        <h1>Cataratas del Iguazú</h1>
+        <h5>22 de diciembre de 2017 - Puerto Iguazú, Misiones</h5>
+        <div class="row">
+          <div class="col l4">
+            <img src="img/blog2.jpg" width="100%" class="responsive-img">
+          </div>
+          <div class="col l8 text-justify">
+            <p>Las Cataratas del Iguazú, llamado popularmente en Argentina como «Cataratas»; son un conjunto de cataratas que se localizan sobre el río Iguazú, en el límite entre la provincia argentina de Misiones y el estado brasileño de Paraná. Están totalmente insertadas en áreas protegidas; el sector de la Argentina se encuentra dentro del parque nacional Iguazú, mientras que el de Brasil se encuentra en el Parque Nacional do Iguaçu. Fueron elegidas como una de las «Siete maravillas naturales del mundo»</p>
+          </div>
+        </div>
+        <p>Están formadas por 275 saltos, el 80 % de ellos se ubican del lado argentino. Un espectáculo aparte es su salto de mayor caudal y, con 80 m, también el más alto: la Garganta del diablo, el cual se puede disfrutar en toda su majestuosidad desde solo 50 m, recorriendo las pasarelas que parten desde Puerto Canoas, al que se llega utilizando el servicio de trenes ecológicos. Por este salto pasa la frontera entre ambos países. Se pueden realizar paseos en lancha bajo los saltos y caminatas por senderos apreciando algunos animales de la selva semitropical perteneciente al distrito fitogeográfico de las Selvas Mixtas de la provincia fitogeográfica Paranaense.</p>
+        <!-- Caja de comentario -->
+        <br><h5>Deja tu comentario</h5>
+        <div class="col s12 l5 input-field">
+          <i class="material-icons prefix">perm_identity</i>
+          <input type="text" id="nombre" class="validate">
+          <label for="nombre">Nombre y apellido</label>
+        </div>
+        <div class="col s12 l5 push-l1 input-field">
+          <i class="material-icons prefix">email</i>
+          <input type="text" id="email" class="validate">
+          <label for="email">E-mail</label>
+        </div>
+        <div class="col s12 l12 input-field">
+          <i class="material-icons prefix">insert_comment</i>
+          <textarea id="texto" class="materialize-textarea"></textarea>
+          <label for="texto">Comentario</label>
+        </div>
+        <div class="col s12 l3 push-l9">
+          <a class="btn waves-effect waves-red btn-large" style="background:white;color:black"><i class="material-icons left">send</i>Enviar</a>
+        </div>
+      </div>
+    </div>
+    <!-- Js -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
   </body>
 </html>

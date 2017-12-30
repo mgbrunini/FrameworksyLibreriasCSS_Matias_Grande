@@ -1,0 +1,28 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+a{
+  color: white;
+}
+#logo{
+  margin-top: 1.5%;
+}
+#pv{
+  margin-top: 20%;
+}
+#sl{
+  font-style: italic;
+}
+#nav{
+  background-color: none;
+}
+#blog{
+  background-color: white;
+  text-align: justify;
+}
+#autor{
+  background-color: white;
+  text-align: center;
+}
